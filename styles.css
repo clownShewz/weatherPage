@@ -1,0 +1,45 @@
+body, html, .container-fluid {
+    height: 100%;
+    background-color: black;
+    background:linear-gradient(lightsteelblue,ghostwhite);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Days One', sans-serif;
+    color:lightsteelblue;
+}
+
+.row{
+    width:100%;
+}
+
+h1{
+    font-weight: normal;
+    color:white;
+}
+
+.alert{
+    background-color: mistyrose;
+    color: darkred;
+}
+
+.btn{
+    height:40px;
+}
+
+td{
+    font-size:4px;
+}
+
+.small-font{
+    font-size:9px;
+}
+
+.btn-primary{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif ;
+    color:lightsteelblue;
+}
+
+.btn-primary:active, .btn-primary.active,.btn-primary:focus,.btn-primary:hover {
+    background: white;
+    box-shadow: none;
+}
